@@ -1,0 +1,15 @@
+  665  git init
+  666  touch readme.md index.html style.css
+  667  git remote add origin https://github.com/joshbardsley1202/Git-Drill-1.git
+  668  git add index.html
+  669  git status
+  670  git commit -m "Added index.html"
+  671  atom readme.md
+  672  git add -A
+  673  git reset
+  674  touch app.js
+  675  mv ~/Downloads/LOTR.gif ./
+  676  git add -A
+  677  git commit -m "LOTR gif added"
+  678  git log
+  679  git push -u origin master
